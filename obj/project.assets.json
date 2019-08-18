@@ -1,0 +1,2118 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "Microsoft.Extensions.Configuration/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Memory": "4.5.0",
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Penguin.Cms.Attributes/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Persistence.Abstractions": "1.2.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Attributes.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Attributes.dll": {}
+        }
+      },
+      "Penguin.Cms.Configurations/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Cms.Entities": "1.0.5",
+          "Penguin.Configuration": "1.1.2",
+          "Penguin.DependencyInjection.Abstractions": "1.0.5",
+          "Penguin.Messaging.Abstractions": "2.0.6",
+          "Penguin.Messaging.Persistence": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.6",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Configurations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Configurations.dll": {}
+        }
+      },
+      "Penguin.Cms.Entities/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Attributes": "1.0.4",
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Persistence.Abstractions": "1.2.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Entities.dll": {}
+        }
+      },
+      "Penguin.Cms.Files/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Security": "1.0.8",
+          "Penguin.Files.Abstractions": "1.0.4",
+          "Penguin.Persistence.Abstractions": "1.2.6",
+          "Penguin.Services.Files": "1.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Files.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Files.dll": {}
+        }
+      },
+      "Penguin.Cms.Logging/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Logging.Entities": "1.0.2",
+          "Penguin.Errors": "1.0.2",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Logging.dll": {}
+        }
+      },
+      "Penguin.Cms.Logging.Entities/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Messaging.Logging": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Logging.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Logging.Entities.dll": {}
+        }
+      },
+      "Penguin.Cms.Mail/1.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Cms.Configurations": "1.2.2",
+          "Penguin.Cms.Files": "1.0.4",
+          "Penguin.Configuration.Extensions": "1.0.5",
+          "Penguin.Files.Abstractions": "1.0.4",
+          "Penguin.Mail": "1.0.5",
+          "Penguin.Mail.Abstractions": "1.0.4",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.6",
+          "Penguin.Web.Data": "1.1.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Mail.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Mail.dll": {}
+        }
+      },
+      "Penguin.Cms.Mail.Repositories/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Mail": "1.0.11",
+          "Penguin.Cms.Repositories": "1.0.3",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "Penguin.Persistence.Database": "1.1.13",
+          "Penguin.Persistence.Repositories": "1.1.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.dll": {}
+        }
+      },
+      "Penguin.Cms.Repositories/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Entities": "1.0.5",
+          "Penguin.Messaging.Core": "2.0.9",
+          "Penguin.Persistence.Repositories": "1.1.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Repositories.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Repositories.dll": {}
+        }
+      },
+      "Penguin.Cms.Security/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Attributes": "1.0.4",
+          "Penguin.Cms.Entities": "1.0.5",
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Extensions.String": "1.1.8",
+          "Penguin.Persistence.Abstractions": "1.2.6",
+          "Penguin.Reflection": "3.0.11",
+          "Penguin.Reflection.Extensions": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Security.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Security.dll": {}
+        }
+      },
+      "Penguin.Cms.Workers/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Logging": "1.0.5",
+          "Penguin.Configuration": "1.1.2",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Reflection": "3.0.11",
+          "Penguin.Workers.Abstractions": "1.2.10",
+          "Penguin.Workers.Repositories": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Workers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Workers.dll": {}
+        }
+      },
+      "Penguin.Cms.Workers.Entities/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Entities": "1.0.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Cms.Workers.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Workers.Entities.dll": {}
+        }
+      },
+      "Penguin.Configuration/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Configuration.Abstractions": "1.1.3",
+          "Penguin.Persistence.Abstractions": "1.2.6",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Configuration.dll": {}
+        }
+      },
+      "Penguin.Configuration.Abstractions/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Configuration.Extensions/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Configuration.Abstractions": "1.0.4",
+          "Penguin.Extensions.String": "1.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Configuration.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Configuration.Extensions.dll": {}
+        }
+      },
+      "Penguin.DependencyInjection.Abstractions/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Entities/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Entities.Abstractions": "1.0.3",
+          "Penguin.Persistence.Abstractions": "1.2.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Entities.dll": {}
+        }
+      },
+      "Penguin.Entities.Abstractions/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Entities.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Entities.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Errors/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Extensions.Exceptions": "1.1.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Errors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Errors.dll": {}
+        }
+      },
+      "Penguin.Extensions.Exceptions/1.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Extensions.Exceptions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Extensions.Exceptions.dll": {}
+        }
+      },
+      "Penguin.Extensions.String/1.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Extensions.String.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Extensions.String.dll": {}
+        }
+      },
+      "Penguin.Files.Abstractions/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Files.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Files.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Mail/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Configuration.Extensions": "1.0.5",
+          "Penguin.DependencyInjection.Abstractions": "1.0.5",
+          "Penguin.Extensions.String": "1.1.8",
+          "Penguin.Files.Abstractions": "1.0.4",
+          "Penguin.Mail.Abstractions": "1.0.4",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Web.Data": "1.1.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Mail.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Mail.dll": {}
+        }
+      },
+      "Penguin.Mail.Abstractions/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Files.Abstractions": "1.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Mail.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Mail.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Messaging.Abstractions/2.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Messaging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Messaging.Core/2.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Messaging.Abstractions": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Messaging.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Core.dll": {}
+        }
+      },
+      "Penguin.Messaging.Logging/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Messaging.Abstractions": "2.0.6",
+          "Penguin.Messaging.Core": "2.0.9"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Messaging.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Logging.dll": {}
+        }
+      },
+      "Penguin.Messaging.Persistence/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Messaging.Abstractions": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Messaging.Persistence.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Persistence.dll": {}
+        }
+      },
+      "Penguin.Persistence.Abstractions/1.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Persistence.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Persistence.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Persistence.Database/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Extensions.String": "1.1.8",
+          "Penguin.Persistence.Abstractions": "1.2.6",
+          "Penguin.Reflection.Extensions": "2.0.6",
+          "System.Data.SqlClient": "4.6.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Persistence.Database.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Persistence.Database.dll": {}
+        }
+      },
+      "Penguin.Persistence.Repositories/1.1.12": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Messaging.Core": "2.0.9",
+          "Penguin.Messaging.Persistence": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Persistence.Repositories.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Persistence.Repositories.dll": {}
+        }
+      },
+      "Penguin.Reflection/3.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Reflection.Abstractions": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Reflection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Reflection.dll": {}
+        }
+      },
+      "Penguin.Reflection.Abstractions/2.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Reflection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Reflection.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Reflection.Extensions/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Reflection.Abstractions": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Reflection.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Reflection.Extensions.dll": {}
+        }
+      },
+      "Penguin.Services.Files/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.DependencyInjection.Abstractions": "1.0.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Services.Files.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Services.Files.dll": {}
+        }
+      },
+      "Penguin.Web.Data/1.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Penguin.Web.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Web.Data.dll": {}
+        }
+      },
+      "Penguin.Workers.Abstractions/1.2.10": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Workers.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Workers.Abstractions.dll": {}
+        }
+      },
+      "Penguin.Workers.Repositories/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Penguin.Cms.Workers.Entities": "1.0.2",
+          "Penguin.Persistence.Repositories": "1.1.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Penguin.Workers.Repositories.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Workers.Repositories.dll": {}
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.Buffers": "4.4.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Memory": "4.5.1",
+          "System.Security.Principal.Windows": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.5.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Memory/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Configuration/2.2.0": {
+      "sha512": "nOP8R1mVb/6mZtm2qgAJXn/LFm/2kMjHDAg/QJLFG6CuWYJtaD3p1BwQhufBVvRzL9ceJ/xF0SQ0qsI2GkDQAA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.2.2.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+      "sha512": "65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.2.0": {
+      "sha512": "azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "microsoft.win32.registry.4.5.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "type": "package",
+      "path": "netstandard.library/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/NETStandard.Library.targets",
+        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
+        "build/netstandard2.0/ref/System.AppContext.dll",
+        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
+        "build/netstandard2.0/ref/System.Collections.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.dll",
+        "build/netstandard2.0/ref/System.Console.dll",
+        "build/netstandard2.0/ref/System.Core.dll",
+        "build/netstandard2.0/ref/System.Data.Common.dll",
+        "build/netstandard2.0/ref/System.Data.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
+        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
+        "build/netstandard2.0/ref/System.Drawing.dll",
+        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
+        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/ref/System.Globalization.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
+        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
+        "build/netstandard2.0/ref/System.IO.Pipes.dll",
+        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
+        "build/netstandard2.0/ref/System.IO.dll",
+        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
+        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
+        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
+        "build/netstandard2.0/ref/System.Linq.dll",
+        "build/netstandard2.0/ref/System.Net.Http.dll",
+        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
+        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
+        "build/netstandard2.0/ref/System.Net.Ping.dll",
+        "build/netstandard2.0/ref/System.Net.Primitives.dll",
+        "build/netstandard2.0/ref/System.Net.Requests.dll",
+        "build/netstandard2.0/ref/System.Net.Security.dll",
+        "build/netstandard2.0/ref/System.Net.Sockets.dll",
+        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
+        "build/netstandard2.0/ref/System.Net.dll",
+        "build/netstandard2.0/ref/System.Numerics.dll",
+        "build/netstandard2.0/ref/System.ObjectModel.dll",
+        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
+        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
+        "build/netstandard2.0/ref/System.Reflection.dll",
+        "build/netstandard2.0/ref/System.Resources.Reader.dll",
+        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
+        "build/netstandard2.0/ref/System.Resources.Writer.dll",
+        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
+        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
+        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
+        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
+        "build/netstandard2.0/ref/System.Runtime.dll",
+        "build/netstandard2.0/ref/System.Security.Claims.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
+        "build/netstandard2.0/ref/System.Security.Principal.dll",
+        "build/netstandard2.0/ref/System.Security.SecureString.dll",
+        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.dll",
+        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
+        "build/netstandard2.0/ref/System.Threading.Thread.dll",
+        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/ref/System.Threading.Timer.dll",
+        "build/netstandard2.0/ref/System.Threading.dll",
+        "build/netstandard2.0/ref/System.Transactions.dll",
+        "build/netstandard2.0/ref/System.ValueTuple.dll",
+        "build/netstandard2.0/ref/System.Web.dll",
+        "build/netstandard2.0/ref/System.Windows.dll",
+        "build/netstandard2.0/ref/System.Xml.Linq.dll",
+        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
+        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/ref/System.Xml.dll",
+        "build/netstandard2.0/ref/System.dll",
+        "build/netstandard2.0/ref/mscorlib.dll",
+        "build/netstandard2.0/ref/netstandard.dll",
+        "build/netstandard2.0/ref/netstandard.xml",
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Penguin.Cms.Attributes/1.0.4": {
+      "sha512": "1ozjmFrD00zbz2VTSo/93ITz/ZeJ+h1oALWdRc32sV4FBzRDmKdcMHBiq7tWrRZLCh1ySAW/dgfXmL3LZu/vsA==",
+      "type": "package",
+      "path": "penguin.cms.attributes/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Attributes.dll",
+        "lib/netstandard2.0/Penguin.Cms.Attributes.xml",
+        "penguin.cms.attributes.1.0.4.nupkg.sha512",
+        "penguin.cms.attributes.nuspec"
+      ]
+    },
+    "Penguin.Cms.Configurations/1.2.2": {
+      "sha512": "4Is8j1+oyc/ZszXrMyLuWhX9Kr1js3hhb9MeKfeyYw9hnPCi+BmctPTuDp0wjB4DpDY8TVFjZQpm3xdiIVbrPA==",
+      "type": "package",
+      "path": "penguin.cms.configurations/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Configurations.dll",
+        "lib/netstandard2.0/Penguin.Cms.Configurations.xml",
+        "penguin.cms.configurations.1.2.2.nupkg.sha512",
+        "penguin.cms.configurations.nuspec"
+      ]
+    },
+    "Penguin.Cms.Entities/1.0.5": {
+      "sha512": "IdcJkwYOoIO/Y1OhKAbIjhTA4S4VOBJvxn2pKIN17ev7zDe3sOhCEOGZsEIwDdtF4RQhN8bI3TpV8sq02arswQ==",
+      "type": "package",
+      "path": "penguin.cms.entities/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Entities.dll",
+        "lib/netstandard2.0/Penguin.Cms.Entities.xml",
+        "penguin.cms.entities.1.0.5.nupkg.sha512",
+        "penguin.cms.entities.nuspec"
+      ]
+    },
+    "Penguin.Cms.Files/1.0.4": {
+      "sha512": "Pd3tuomPf597keWRoCkvgqooBZTxbg9mag9LYtTcDwQhO6/S0Ky+Lpvi6mj5KeReWJBjdEzQCxwiVrNsU0ahQw==",
+      "type": "package",
+      "path": "penguin.cms.files/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Files.dll",
+        "lib/netstandard2.0/Penguin.Cms.Files.xml",
+        "penguin.cms.files.1.0.4.nupkg.sha512",
+        "penguin.cms.files.nuspec"
+      ]
+    },
+    "Penguin.Cms.Logging/1.0.5": {
+      "sha512": "S/v116z5ag9p9u0eCeA0iO5rS4snPE9uKTtgDutB4s1gSUvUrOlmThdD2z4Zo7P+o+wxHE+f503pvGDdPiXe2A==",
+      "type": "package",
+      "path": "penguin.cms.logging/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Logging.dll",
+        "lib/netstandard2.0/Penguin.Cms.Logging.xml",
+        "penguin.cms.logging.1.0.5.nupkg.sha512",
+        "penguin.cms.logging.nuspec"
+      ]
+    },
+    "Penguin.Cms.Logging.Entities/1.0.2": {
+      "sha512": "hlKZTQk+R0dlvhejFdJSqrCSeEAJHX61X4zTxkcRrmMJOv3pCR28A6x9BLdSRdiWgTUK/q0kiRpVVW81JgsLSA==",
+      "type": "package",
+      "path": "penguin.cms.logging.entities/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Logging.Entities.dll",
+        "lib/netstandard2.0/Penguin.Cms.Logging.Entities.xml",
+        "penguin.cms.logging.entities.1.0.2.nupkg.sha512",
+        "penguin.cms.logging.entities.nuspec"
+      ]
+    },
+    "Penguin.Cms.Mail/1.0.11": {
+      "sha512": "rfclRHUBuH6sp7Fjh08kms3GJdvbkt9pZv7bH4pOZmYYgGhit2JLg9+/Qbfj5a/gcI7JGjhP2hmzkVfQFwA+QQ==",
+      "type": "package",
+      "path": "penguin.cms.mail/1.0.11",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Mail.dll",
+        "lib/netstandard2.0/Penguin.Cms.Mail.xml",
+        "penguin.cms.mail.1.0.11.nupkg.sha512",
+        "penguin.cms.mail.nuspec"
+      ]
+    },
+    "Penguin.Cms.Mail.Repositories/1.0.6": {
+      "sha512": "VSD+HRzdRGrCvatsFi2XEImDTKHSEQ/yw9pM8efFkSYPArpmea2SWjXh13mYPA8mgJDCL0zzU56UpzOFMzchPg==",
+      "type": "package",
+      "path": "penguin.cms.mail.repositories/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.dll",
+        "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.xml",
+        "penguin.cms.mail.repositories.1.0.6.nupkg.sha512",
+        "penguin.cms.mail.repositories.nuspec"
+      ]
+    },
+    "Penguin.Cms.Repositories/1.0.3": {
+      "sha512": "Akxz94jih6+fZCDr44LpTh+xpaSaeWR76YWXCB2rJhL9Wy5wBr7kIF8OHp2RDg2pWG/GtJIwtvER2VXZjvCHHQ==",
+      "type": "package",
+      "path": "penguin.cms.repositories/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Repositories.dll",
+        "lib/netstandard2.0/Penguin.Cms.Repositories.xml",
+        "penguin.cms.repositories.1.0.3.nupkg.sha512",
+        "penguin.cms.repositories.nuspec"
+      ]
+    },
+    "Penguin.Cms.Security/1.0.8": {
+      "sha512": "I/O7b03Pj1KEgr+fZKBJKjNQ14Jw2NCbhyuhbLqFYixjOliqQ8HqhrdfSW39K85EzZCVIZZLShUfb+9aDGJnMQ==",
+      "type": "package",
+      "path": "penguin.cms.security/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Security.dll",
+        "penguin.cms.security.1.0.8.nupkg.sha512",
+        "penguin.cms.security.nuspec"
+      ]
+    },
+    "Penguin.Cms.Workers/1.0.6": {
+      "sha512": "u2IarpyqIgFWptc2Wiw60fSiEgS4e6Uk7QjmWM8nVEnA+RgdQqdUdxzaa89rmKSB7BTdtnHuC2hG8hfhAb/rnQ==",
+      "type": "package",
+      "path": "penguin.cms.workers/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Workers.dll",
+        "lib/netstandard2.0/Penguin.Cms.Workers.xml",
+        "penguin.cms.workers.1.0.6.nupkg.sha512",
+        "penguin.cms.workers.nuspec"
+      ]
+    },
+    "Penguin.Cms.Workers.Entities/1.0.2": {
+      "sha512": "uTxp6wRD+EWx2Tfh234rDZzax9GUShzYqBrAUENtjAdylh9KTWx+tkk6eKX1MxrgR10Df1Fgz1uqFaCG2o8yUA==",
+      "type": "package",
+      "path": "penguin.cms.workers.entities/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Cms.Workers.Entities.dll",
+        "lib/netstandard2.0/Penguin.Cms.Workers.Entities.xml",
+        "penguin.cms.workers.entities.1.0.2.nupkg.sha512",
+        "penguin.cms.workers.entities.nuspec"
+      ]
+    },
+    "Penguin.Configuration/1.1.2": {
+      "sha512": "mx0GME1ydiDjMl7wAHFNpTQZ3SliOk0WjrUZBso5SM6N5YXedpMV48PoeXlCaeaHgqEExux758Mjx7ro4Ktk0A==",
+      "type": "package",
+      "path": "penguin.configuration/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Configuration.dll",
+        "lib/netstandard2.0/Penguin.Configuration.xml",
+        "penguin.configuration.1.1.2.nupkg.sha512",
+        "penguin.configuration.nuspec"
+      ]
+    },
+    "Penguin.Configuration.Abstractions/1.1.3": {
+      "sha512": "Q0Nm+r3sbYpcaOzTkyCg60+u2FE/iE1PKqm54Egl40u3BAIksuccfCaKXUad9hlgAc9St4LcfNIBrff2nAAEUQ==",
+      "type": "package",
+      "path": "penguin.configuration.abstractions/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.Configuration.Abstractions.xml",
+        "penguin.configuration.abstractions.1.1.3.nupkg.sha512",
+        "penguin.configuration.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Configuration.Extensions/1.0.5": {
+      "sha512": "B7dQ2yX/+FR5N5IEDzwaf7BOZ7qvSuUX0Kpt+BeQwj4QZuWoibVXreJXQ9Xlpf9uPWBKEjfib5M85JsI52DtFA==",
+      "type": "package",
+      "path": "penguin.configuration.extensions/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Configuration.Extensions.dll",
+        "penguin.configuration.extensions.1.0.5.nupkg.sha512",
+        "penguin.configuration.extensions.nuspec"
+      ]
+    },
+    "Penguin.DependencyInjection.Abstractions/1.0.5": {
+      "sha512": "X0uaenycmIEyoTCkdl8WKW091DvGb5odETxa9Adv3ZHfxFeqiZBSWFcpMZXx7HX6GzolZcAp4BTXRwSwXXgV6Q==",
+      "type": "package",
+      "path": "penguin.dependencyinjection.abstractions/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.DependencyInjection.Abstractions.xml",
+        "penguin.dependencyinjection.abstractions.1.0.5.nupkg.sha512",
+        "penguin.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Entities/1.0.8": {
+      "sha512": "jcg6fkhsXhfv6L+U+OK9I2gB0cAPwbTmymzZdK5nu81jbTQQtkMSOpeTdsN09IQ0icibxUK5xqW/J5PrDGpFPA==",
+      "type": "package",
+      "path": "penguin.entities/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Entities.dll",
+        "penguin.entities.1.0.8.nupkg.sha512",
+        "penguin.entities.nuspec"
+      ]
+    },
+    "Penguin.Entities.Abstractions/1.0.3": {
+      "sha512": "26ao6F9xzWahv8Hu4VXdRhXvzC5MX2ogCPPaksMww1oqWD+oBN/wnM3kzYjqXjMDmhqyJJIAsvbMdE+hpVYOoA==",
+      "type": "package",
+      "path": "penguin.entities.abstractions/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Entities.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.Entities.Abstractions.xml",
+        "penguin.entities.abstractions.1.0.3.nupkg.sha512",
+        "penguin.entities.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Errors/1.0.2": {
+      "sha512": "S/zxA1AgrqH/GANxQI6ZJqrSQMr/L/hR8UmrK7u/5+rOOlQi56NSxju1/MKCUZnVPD5L0CRH/5brCmp63qbT7g==",
+      "type": "package",
+      "path": "penguin.errors/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Errors.dll",
+        "lib/netstandard2.0/Penguin.Errors.xml",
+        "penguin.errors.1.0.2.nupkg.sha512",
+        "penguin.errors.nuspec"
+      ]
+    },
+    "Penguin.Extensions.Exceptions/1.1.7": {
+      "sha512": "263pjVvSs4mhvnq8UU4CbVlrP1oVIUMZQ+gy/36mycezZxWZStsCy/eTBZUs6tIuQA0kfX8uX/CCh333l9YfKw==",
+      "type": "package",
+      "path": "penguin.extensions.exceptions/1.1.7",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Extensions.Exceptions.dll",
+        "lib/netstandard2.0/Penguin.Extensions.Exceptions.xml",
+        "penguin.extensions.exceptions.1.1.7.nupkg.sha512",
+        "penguin.extensions.exceptions.nuspec"
+      ]
+    },
+    "Penguin.Extensions.String/1.1.8": {
+      "sha512": "WdpnBejBYadD7fTb5mV/qdU1ndTIAVLmiH/tlnvuwhia8/wmpetMtAEdQF6u60AqGH1LfIaP6OzSyJh1a5S1Iw==",
+      "type": "package",
+      "path": "penguin.extensions.string/1.1.8",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Extensions.String.dll",
+        "lib/netstandard2.0/Penguin.Extensions.String.xml",
+        "penguin.extensions.string.1.1.8.nupkg.sha512",
+        "penguin.extensions.string.nuspec"
+      ]
+    },
+    "Penguin.Files.Abstractions/1.0.4": {
+      "sha512": "HKTvaI9dXOxDZ8ekGvJ7vS4IpeBRbxSySwzYtkLDaSn2GxTfyevJ5RePdzk0rJ4cFjhiy2idbGefhLx28o2v+g==",
+      "type": "package",
+      "path": "penguin.files.abstractions/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Files.Abstractions.dll",
+        "penguin.files.abstractions.1.0.4.nupkg.sha512",
+        "penguin.files.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Mail/1.0.5": {
+      "sha512": "z/bjsOYHhzy+7t225iTjE41PRMgclhUy1taeCzDqFi40u/EMeHrH6AinLJpmppZ6YAO1X9nXe+QBd2WEZYF42A==",
+      "type": "package",
+      "path": "penguin.mail/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Mail.dll",
+        "penguin.mail.1.0.5.nupkg.sha512",
+        "penguin.mail.nuspec"
+      ]
+    },
+    "Penguin.Mail.Abstractions/1.0.4": {
+      "sha512": "rzfNILk5qkFUV/+8DSZdfy+6tCVFz0O06szXfVQyUeMtLo3ZuemdRyLfYiDbFUQGz2v0SWqWqoQ5SpVPy4YVAA==",
+      "type": "package",
+      "path": "penguin.mail.abstractions/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Mail.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.Mail.Abstractions.xml",
+        "penguin.mail.abstractions.1.0.4.nupkg.sha512",
+        "penguin.mail.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Messaging.Abstractions/2.0.6": {
+      "sha512": "GZasuWx8tycXxHteZqtsxmt8ZP3wANXkMMtWo/tUgIxKAy2NVh5QtknXEy7/l4sGRkcVMgWwoto8RfPqDzEcrg==",
+      "type": "package",
+      "path": "penguin.messaging.abstractions/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Messaging.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.Messaging.Abstractions.xml",
+        "penguin.messaging.abstractions.2.0.6.nupkg.sha512",
+        "penguin.messaging.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Messaging.Core/2.0.9": {
+      "sha512": "Co+9A88aQjYXq7GfxHgA1miEywVQDnKGsCXmL7StOXDd+vHnjioLPJDi6cAAE/t8PmKHisTyTwOnsc/6yqOMvA==",
+      "type": "package",
+      "path": "penguin.messaging.core/2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Messaging.Core.dll",
+        "lib/netstandard2.0/Penguin.Messaging.Core.xml",
+        "penguin.messaging.core.2.0.9.nupkg.sha512",
+        "penguin.messaging.core.nuspec"
+      ]
+    },
+    "Penguin.Messaging.Logging/2.0.6": {
+      "sha512": "u2jfW9Kghg/hbS3v60SQs/MSh68JtvkrwLbfj93SxFmlb1oPUeMxGK4eGExANVb89ccEWfuxVmNnnPfKXAbKsg==",
+      "type": "package",
+      "path": "penguin.messaging.logging/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Messaging.Logging.dll",
+        "lib/netstandard2.0/Penguin.Messaging.Logging.xml",
+        "penguin.messaging.logging.2.0.6.nupkg.sha512",
+        "penguin.messaging.logging.nuspec"
+      ]
+    },
+    "Penguin.Messaging.Persistence/2.0.6": {
+      "sha512": "sQJItTwgSCt4a/8hE42tbxbli+8yzv4oyJUjfw9iwvUCeB45UI2kr8JyoYUgzVOTonWF8gCV1+m8+a9SFF5oJQ==",
+      "type": "package",
+      "path": "penguin.messaging.persistence/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Messaging.Persistence.dll",
+        "lib/netstandard2.0/Penguin.Messaging.Persistence.xml",
+        "penguin.messaging.persistence.2.0.6.nupkg.sha512",
+        "penguin.messaging.persistence.nuspec"
+      ]
+    },
+    "Penguin.Persistence.Abstractions/1.2.8": {
+      "sha512": "O1o97M53BaN95zVee+ZFGElYuC4OdCNmI2oqX2Q/IYRKYlixihekdpie0IP0Q1ZQ2YahbAG3qMGC1nbXFfcDhQ==",
+      "type": "package",
+      "path": "penguin.persistence.abstractions/1.2.8",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Persistence.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.Persistence.Abstractions.xml",
+        "penguin.persistence.abstractions.1.2.8.nupkg.sha512",
+        "penguin.persistence.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Persistence.Database/1.1.13": {
+      "sha512": "+6SKj5hASqONGfeah5QH7WunCGbCm53mKD/LODy7oGaD2BW2wn0/rGlKJmaTAcxoBaQZgyuZ24eGHlnhZqPjXQ==",
+      "type": "package",
+      "path": "penguin.persistence.database/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Persistence.Database.dll",
+        "lib/netstandard2.0/Penguin.Persistence.Database.xml",
+        "penguin.persistence.database.1.1.13.nupkg.sha512",
+        "penguin.persistence.database.nuspec"
+      ]
+    },
+    "Penguin.Persistence.Repositories/1.1.12": {
+      "sha512": "e9QtCJ1YPJEk2tHjeXEX3X896Ve+4Sb35aUr9CNJJI9rgT4tXGGILI//LTAm4gN0NmK20JSX2XllWq8jOLENUg==",
+      "type": "package",
+      "path": "penguin.persistence.repositories/1.1.12",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Persistence.Repositories.dll",
+        "lib/netstandard2.0/Penguin.Persistence.Repositories.xml",
+        "penguin.persistence.repositories.1.1.12.nupkg.sha512",
+        "penguin.persistence.repositories.nuspec"
+      ]
+    },
+    "Penguin.Reflection/3.0.11": {
+      "sha512": "xkk+kRc5mhJGbfLzazxHzAmiyzL2uvlPi1LT0waZMxFetDyh+gpgyyYG4LgthNI5nbldqSlb7YJh1XX753J5ug==",
+      "type": "package",
+      "path": "penguin.reflection/3.0.11",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Reflection.dll",
+        "lib/netstandard2.0/Penguin.Reflection.xml",
+        "penguin.reflection.3.0.11.nupkg.sha512",
+        "penguin.reflection.nuspec"
+      ]
+    },
+    "Penguin.Reflection.Abstractions/2.0.6": {
+      "sha512": "QKEcI5QWDunGueI4HElgUivFjlmaXzDAnMzDn1ksMuhZV3BZ7X2saeN3PvIEGrbpV4lvWyuvafOZYcSC2+wHCw==",
+      "type": "package",
+      "path": "penguin.reflection.abstractions/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Reflection.Abstractions.dll",
+        "lib/netstandard2.0/Penguin.Reflection.Abstractions.xml",
+        "penguin.reflection.abstractions.2.0.6.nupkg.sha512",
+        "penguin.reflection.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Reflection.Extensions/2.0.6": {
+      "sha512": "8EIyGo213JZYeF3Y1lDlJVEdVrIfm2F6O40xPPx63vcG865g9t7f15fGSvHFEeUcsKl1URvme3P5kMIBUA4E/A==",
+      "type": "package",
+      "path": "penguin.reflection.extensions/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Reflection.Extensions.dll",
+        "lib/netstandard2.0/Penguin.Reflection.Extensions.xml",
+        "penguin.reflection.extensions.2.0.6.nupkg.sha512",
+        "penguin.reflection.extensions.nuspec"
+      ]
+    },
+    "Penguin.Services.Files/1.0.4": {
+      "sha512": "vZ2cWA7uPKhdcv4BoVkTnRCZ+J18ZE0qVr33vBWUoHvNdVOy49bJk58etwWBT3H03UeTThqP2Jau0tccVBsi1g==",
+      "type": "package",
+      "path": "penguin.services.files/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Services.Files.dll",
+        "lib/netstandard2.0/Penguin.Services.Files.xml",
+        "penguin.services.files.1.0.4.nupkg.sha512",
+        "penguin.services.files.nuspec"
+      ]
+    },
+    "Penguin.Web.Data/1.1.7": {
+      "sha512": "lXSCmgv7FezUUZU1OF6Yp1cEEpNe78PRBVnSQo9TO+sgowj0gdG2RmSg/Jb51Qo9f83qQaMx7id0SjqzvtH+IA==",
+      "type": "package",
+      "path": "penguin.web.data/1.1.7",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Web.Data.dll",
+        "lib/netstandard2.0/Penguin.Web.Data.xml",
+        "penguin.web.data.1.1.7.nupkg.sha512",
+        "penguin.web.data.nuspec"
+      ]
+    },
+    "Penguin.Workers.Abstractions/1.2.10": {
+      "sha512": "QmjJRiKSXUmyk6xg+nYvM6nDd/mlv0dLcPz8d6O/S+pd/f3zKjncTQmieyqxCtBqzfkvnk2GezgHyVynbqguWg==",
+      "type": "package",
+      "path": "penguin.workers.abstractions/1.2.10",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.WorkerProcess.Abstractions.xml",
+        "lib/netstandard2.0/Penguin.Workers.Abstractions.dll",
+        "penguin.workers.abstractions.1.2.10.nupkg.sha512",
+        "penguin.workers.abstractions.nuspec"
+      ]
+    },
+    "Penguin.Workers.Repositories/1.0.2": {
+      "sha512": "n4BB1IiSxFqxCYd7oxxOoUsELHOWOZZncKbiG7F2teHWhYTTA1SF0y49wY9kPcPXaAUoO76RY000B8Hki0ds5A==",
+      "type": "package",
+      "path": "penguin.workers.repositories/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "License.txt",
+        "lib/netstandard2.0/Penguin.Workers.Repositories.dll",
+        "lib/netstandard2.0/Penguin.Workers.Repositories.xml",
+        "penguin.workers.repositories.1.0.2.nupkg.sha512",
+        "penguin.workers.repositories.nuspec"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+      "sha512": "zmr7mxqvG7M7qWzPTHQEF0jIOo65vqsnaJ2s7AyZ9JQaSJ3rfXZ7vPGszw1EbvRATu6zsFMdpQeq1g7oaNocOg==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.SqlClient/4.6.1": {
+      "sha512": "7MTJhBFt4/tSJ2VRpG+TQNPcDdbCnWuoYzbe0kD5O3mQ7aZ2Q+Q3D9Y5Y3/aper5Gp3Lrs+8edk9clvxyPYXPw==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "system.data.sqlclient.4.6.1.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/4.5.0": {
+      "sha512": "eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.1": {
+      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+      "type": "package",
+      "path": "system.memory/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.1/System.Memory.dll",
+        "ref/netstandard1.1/System.Memory.xml",
+        "ref/netstandard2.0/System.Memory.dll",
+        "ref/netstandard2.0/System.Memory.xml",
+        "system.memory.4.5.1.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/4.5.0": {
+      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "type": "package",
+      "path": "system.security.permissions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.5.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "NETStandard.Library >= 2.0.3",
+      "Penguin.Cms.Mail >= 1.0.11",
+      "Penguin.Cms.Mail.Repositories >= 1.0.6",
+      "Penguin.Cms.Workers >= 1.0.6",
+      "Penguin.Persistence.Database >= 1.1.13"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Loffr\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.5",
+    "restore": {
+      "projectUniqueName": "C:\\Penguin.Cms.Workers.Email\\Penguin.Cms.Workers.Email.csproj",
+      "projectName": "Penguin.Cms.Workers.Email",
+      "projectPath": "C:\\Penguin.Cms.Workers.Email\\Penguin.Cms.Workers.Email.csproj",
+      "packagesPath": "C:\\Users\\Loffr\\.nuget\\packages\\",
+      "outputPath": "C:\\Penguin.Cms.Workers.Email\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Loffr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "c:\\Nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "dependencies": {
+          "NETStandard.Library": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.3, )",
+            "autoReferenced": true
+          },
+          "Penguin.Cms.Mail": {
+            "target": "Package",
+            "version": "[1.0.11, )"
+          },
+          "Penguin.Cms.Mail.Repositories": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          },
+          "Penguin.Cms.Workers": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          },
+          "Penguin.Persistence.Database": {
+            "target": "Package",
+            "version": "[1.1.13, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
