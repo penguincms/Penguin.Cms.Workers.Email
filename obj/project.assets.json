@@ -185,18 +185,18 @@
           "lib/netstandard2.0/Penguin.Cms.Logging.Entities.dll": {}
         }
       },
-      "Penguin.Cms.Mail/1.0.11": {
+      "Penguin.Cms.Mail/1.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.2.0",
           "Penguin.Cms.Configurations": "1.2.2",
           "Penguin.Cms.Files": "1.0.4",
-          "Penguin.Configuration.Extensions": "1.0.5",
+          "Penguin.Configuration.Extensions": "1.0.6",
           "Penguin.Files.Abstractions": "1.0.4",
-          "Penguin.Mail": "1.0.5",
-          "Penguin.Mail.Abstractions": "1.0.4",
+          "Penguin.Mail": "1.1.2",
+          "Penguin.Mail.Abstractions": "1.0.5",
           "Penguin.Messaging.Logging": "2.0.6",
-          "Penguin.Persistence.Abstractions": "1.2.6",
+          "Penguin.Persistence.Abstractions": "1.2.8",
           "Penguin.Web.Data": "1.1.7"
         },
         "compile": {
@@ -206,7 +206,7 @@
           "lib/netstandard2.0/Penguin.Cms.Mail.dll": {}
         }
       },
-      "Penguin.Cms.Mail.Repositories/1.0.6": {
+      "Penguin.Cms.Mail.Repositories/1.1.0": {
         "type": "package",
         "dependencies": {
           "Penguin.Cms.Mail": "1.0.11",
@@ -298,7 +298,7 @@
           "lib/netstandard2.0/Penguin.Configuration.dll": {}
         }
       },
-      "Penguin.Configuration.Abstractions/1.1.3": {
+      "Penguin.Configuration.Abstractions/1.1.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll": {}
@@ -307,12 +307,12 @@
           "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll": {}
         }
       },
-      "Penguin.Configuration.Extensions/1.0.5": {
+      "Penguin.Configuration.Extensions/1.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.2.0",
-          "Penguin.Configuration.Abstractions": "1.0.4",
-          "Penguin.Extensions.String": "1.1.6"
+          "Penguin.Configuration.Abstractions": "1.1.4",
+          "Penguin.Extensions.String": "1.1.8"
         },
         "compile": {
           "lib/netstandard2.0/Penguin.Configuration.Extensions.dll": {}
@@ -392,15 +392,15 @@
           "lib/netstandard2.0/Penguin.Files.Abstractions.dll": {}
         }
       },
-      "Penguin.Mail/1.0.5": {
+      "Penguin.Mail/1.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.2.0",
-          "Penguin.Configuration.Extensions": "1.0.5",
+          "Penguin.Configuration.Extensions": "1.0.6",
           "Penguin.DependencyInjection.Abstractions": "1.0.5",
           "Penguin.Extensions.String": "1.1.8",
           "Penguin.Files.Abstractions": "1.0.4",
-          "Penguin.Mail.Abstractions": "1.0.4",
+          "Penguin.Mail.Abstractions": "1.0.5",
           "Penguin.Messaging.Logging": "2.0.6",
           "Penguin.Web.Data": "1.1.7"
         },
@@ -411,7 +411,7 @@
           "lib/netstandard2.0/Penguin.Mail.dll": {}
         }
       },
-      "Penguin.Mail.Abstractions/1.0.4": {
+      "Penguin.Mail.Abstractions/1.0.5": {
         "type": "package",
         "dependencies": {
           "Penguin.Files.Abstractions": "1.0.4"
@@ -1127,29 +1127,29 @@
         "penguin.cms.logging.entities.nuspec"
       ]
     },
-    "Penguin.Cms.Mail/1.0.11": {
-      "sha512": "rfclRHUBuH6sp7Fjh08kms3GJdvbkt9pZv7bH4pOZmYYgGhit2JLg9+/Qbfj5a/gcI7JGjhP2hmzkVfQFwA+QQ==",
+    "Penguin.Cms.Mail/1.1.0": {
+      "sha512": "c1TxWNJvmovSUOQY2b2+Ci1rTtL7MvBcCcA/xG/4vScf8Hih5GmEnYFLOx5Uh5dSNId0sbSk+sZcI4GMjM3Csw==",
       "type": "package",
-      "path": "penguin.cms.mail/1.0.11",
+      "path": "penguin.cms.mail/1.1.0",
       "files": [
         ".nupkg.metadata",
         "License.txt",
         "lib/netstandard2.0/Penguin.Cms.Mail.dll",
         "lib/netstandard2.0/Penguin.Cms.Mail.xml",
-        "penguin.cms.mail.1.0.11.nupkg.sha512",
+        "penguin.cms.mail.1.1.0.nupkg.sha512",
         "penguin.cms.mail.nuspec"
       ]
     },
-    "Penguin.Cms.Mail.Repositories/1.0.6": {
-      "sha512": "VSD+HRzdRGrCvatsFi2XEImDTKHSEQ/yw9pM8efFkSYPArpmea2SWjXh13mYPA8mgJDCL0zzU56UpzOFMzchPg==",
+    "Penguin.Cms.Mail.Repositories/1.1.0": {
+      "sha512": "Y5adcg0yni6wVHTSPHJ+YPifn2sFt0Y7WdbdSjvacgx3f33liDtR74v2IOPmzaX9VS76VFZ8BQ08N5jQW8nXCw==",
       "type": "package",
-      "path": "penguin.cms.mail.repositories/1.0.6",
+      "path": "penguin.cms.mail.repositories/1.1.0",
       "files": [
         ".nupkg.metadata",
         "License.txt",
         "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.dll",
         "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.xml",
-        "penguin.cms.mail.repositories.1.0.6.nupkg.sha512",
+        "penguin.cms.mail.repositories.1.1.0.nupkg.sha512",
         "penguin.cms.mail.repositories.nuspec"
       ]
     },
@@ -1217,29 +1217,31 @@
         "penguin.configuration.nuspec"
       ]
     },
-    "Penguin.Configuration.Abstractions/1.1.3": {
-      "sha512": "Q0Nm+r3sbYpcaOzTkyCg60+u2FE/iE1PKqm54Egl40u3BAIksuccfCaKXUad9hlgAc9St4LcfNIBrff2nAAEUQ==",
+    "Penguin.Configuration.Abstractions/1.1.4": {
+      "sha512": "fspw76xr1wI+2ztqrnIj5PBchn85O6PlWtiyqH6TDs3pJB8z+Jk3xXXcaNDSUFspv9ECijYHSWvP03bHhRfM2Q==",
       "type": "package",
-      "path": "penguin.configuration.abstractions/1.1.3",
+      "path": "penguin.configuration.abstractions/1.1.4",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "License.txt",
         "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Penguin.Configuration.Abstractions.xml",
-        "penguin.configuration.abstractions.1.1.3.nupkg.sha512",
+        "penguin.configuration.abstractions.1.1.4.nupkg.sha512",
         "penguin.configuration.abstractions.nuspec"
       ]
     },
-    "Penguin.Configuration.Extensions/1.0.5": {
-      "sha512": "B7dQ2yX/+FR5N5IEDzwaf7BOZ7qvSuUX0Kpt+BeQwj4QZuWoibVXreJXQ9Xlpf9uPWBKEjfib5M85JsI52DtFA==",
+    "Penguin.Configuration.Extensions/1.0.6": {
+      "sha512": "qra08OMuQCqQSvpB0j1e1exAjP1EzzxsS3XPJFBteHJkkK7QZNFc4eXnoG34gUfjF1EzQhOL8gbTodRVhZy9Qw==",
       "type": "package",
-      "path": "penguin.configuration.extensions/1.0.5",
+      "path": "penguin.configuration.extensions/1.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
         "lib/netstandard2.0/Penguin.Configuration.Extensions.dll",
-        "penguin.configuration.extensions.1.0.5.nupkg.sha512",
+        "lib/netstandard2.0/Penguin.Configuration.Extensions.xml",
+        "penguin.configuration.extensions.1.0.6.nupkg.sha512",
         "penguin.configuration.extensions.nuspec"
       ]
     },
@@ -1332,28 +1334,30 @@
         "penguin.files.abstractions.nuspec"
       ]
     },
-    "Penguin.Mail/1.0.5": {
-      "sha512": "z/bjsOYHhzy+7t225iTjE41PRMgclhUy1taeCzDqFi40u/EMeHrH6AinLJpmppZ6YAO1X9nXe+QBd2WEZYF42A==",
+    "Penguin.Mail/1.1.2": {
+      "sha512": "EDwre70E3/ME4nsoe4laYrTaUComsfG22A8NZss0m/8v54U7SkgBVvJz68RhGMqrIE72b9nRapNtC3N7FGGGuw==",
       "type": "package",
-      "path": "penguin.mail/1.0.5",
+      "path": "penguin.mail/1.1.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "License.txt",
         "lib/netstandard2.0/Penguin.Mail.dll",
-        "penguin.mail.1.0.5.nupkg.sha512",
+        "penguin.mail.1.1.2.nupkg.sha512",
         "penguin.mail.nuspec"
       ]
     },
-    "Penguin.Mail.Abstractions/1.0.4": {
-      "sha512": "rzfNILk5qkFUV/+8DSZdfy+6tCVFz0O06szXfVQyUeMtLo3ZuemdRyLfYiDbFUQGz2v0SWqWqoQ5SpVPy4YVAA==",
+    "Penguin.Mail.Abstractions/1.0.5": {
+      "sha512": "PF50vnZKLSHi0cyOdkiBzbd8MSvdeqAgYO4f3kDrP/yhSHrCYDeQ4vTAvICzT2t/WBXunlePzNuV2G+Uui29iA==",
       "type": "package",
-      "path": "penguin.mail.abstractions/1.0.4",
+      "path": "penguin.mail.abstractions/1.0.5",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "License.txt",
         "lib/netstandard2.0/Penguin.Mail.Abstractions.dll",
         "lib/netstandard2.0/Penguin.Mail.Abstractions.xml",
-        "penguin.mail.abstractions.1.0.4.nupkg.sha512",
+        "penguin.mail.abstractions.1.0.5.nupkg.sha512",
         "penguin.mail.abstractions.nuspec"
       ]
     },
@@ -2036,8 +2040,8 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Penguin.Cms.Mail >= 1.0.11",
-      "Penguin.Cms.Mail.Repositories >= 1.0.6",
+      "Penguin.Cms.Mail >= 1.1.0",
+      "Penguin.Cms.Mail.Repositories >= 1.1.0",
       "Penguin.Cms.Workers >= 1.0.6",
       "Penguin.Persistence.Database >= 1.1.13"
     ]
@@ -2047,7 +2051,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.5",
+    "version": "1.1.0",
     "restore": {
       "projectUniqueName": "C:\\Penguin.Cms.Workers.Email\\Penguin.Cms.Workers.Email.csproj",
       "projectName": "Penguin.Cms.Workers.Email",
@@ -2092,11 +2096,11 @@
           },
           "Penguin.Cms.Mail": {
             "target": "Package",
-            "version": "[1.0.11, )"
+            "version": "[1.1.0, )"
           },
           "Penguin.Cms.Mail.Repositories": {
             "target": "Package",
-            "version": "[1.0.6, )"
+            "version": "[1.1.0, )"
           },
           "Penguin.Cms.Workers": {
             "target": "Package",

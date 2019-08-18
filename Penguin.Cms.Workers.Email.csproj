@@ -7,7 +7,7 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>http://www.penguinms.com/Nuget</PackageProjectUrl>
     <PackageIconUrl>http://www.penguinms.com/client/images/pg.png</PackageIconUrl>
-    <Version>1.0.5</Version>
+    <Version>1.1.0</Version>
     <Description>An email worker class that scrapes PersistenceContexts to find queued messages and attempts to send them out through the Penguin Mail stack service while logging actions</Description>
   </PropertyGroup>
 
@@ -19,8 +19,8 @@
   </ItemGroup>
 
  <ItemGroup>
-   <PackageReference Include="Penguin.Cms.Mail" Version="1.0.11" />
-   <PackageReference Include="Penguin.Cms.Mail.Repositories" Version="1.0.6" />
+   <PackageReference Include="Penguin.Cms.Mail" Version="1.1.0" />
+   <PackageReference Include="Penguin.Cms.Mail.Repositories" Version="1.1.0" />
    <PackageReference Include="Penguin.Cms.Workers" Version="1.0.6" />
    <PackageReference Include="Penguin.Persistence.Database" Version="1.1.13" />
  </ItemGroup>

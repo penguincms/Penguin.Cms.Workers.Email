@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Penguin.Cms.Workers.Email\\Penguin.Cms.Workers.Email.csproj": {
-      "version": "1.0.5",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "C:\\Penguin.Cms.Workers.Email\\Penguin.Cms.Workers.Email.csproj",
         "projectName": "Penguin.Cms.Workers.Email",
@@ -50,11 +50,11 @@
             },
             "Penguin.Cms.Mail": {
               "target": "Package",
-              "version": "[1.0.11, )"
+              "version": "[1.1.0, )"
             },
             "Penguin.Cms.Mail.Repositories": {
               "target": "Package",
-              "version": "[1.0.6, )"
+              "version": "[1.1.0, )"
             },
             "Penguin.Cms.Workers": {
               "target": "Package",

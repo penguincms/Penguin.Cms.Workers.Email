@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Penguin.Cms.Workers.Email")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An email worker class that scrapes PersistenceContexts to find queued messages an" +
     "d attempts to send them out through the Penguin Mail stack service while logging" +
     " actions")]

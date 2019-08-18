@@ -1,0 +1,9 @@
+C:\Penguin.Cms.Workers.Email\bin\Release\netstandard2.0\Penguin.Cms.Workers.Email.deps.json
+C:\Penguin.Cms.Workers.Email\bin\Release\netstandard2.0\Penguin.Cms.Workers.Email.dll
+C:\Penguin.Cms.Workers.Email\bin\Release\netstandard2.0\Penguin.Cms.Workers.Email.pdb
+C:\Penguin.Cms.Workers.Email\bin\Release\netstandard2.0\Penguin.Cms.Workers.Email.xml
+C:\Penguin.Cms.Workers.Email\obj\Release\netstandard2.0\Penguin.Cms.Workers.Email.csproj.CoreCompileInputs.cache
+C:\Penguin.Cms.Workers.Email\obj\Release\netstandard2.0\Penguin.Cms.Workers.Email.AssemblyInfoInputs.cache
+C:\Penguin.Cms.Workers.Email\obj\Release\netstandard2.0\Penguin.Cms.Workers.Email.AssemblyInfo.cs
+C:\Penguin.Cms.Workers.Email\obj\Release\netstandard2.0\Penguin.Cms.Workers.Email.dll
+C:\Penguin.Cms.Workers.Email\obj\Release\netstandard2.0\Penguin.Cms.Workers.Email.pdb

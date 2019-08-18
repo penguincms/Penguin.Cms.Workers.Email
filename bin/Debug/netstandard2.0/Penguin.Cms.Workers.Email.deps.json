@@ -1,0 +1,1108 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "847155a364acdac536fc80a6bc97f09b25bc87f3"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Penguin.Cms.Workers.Email/1.1.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Penguin.Cms.Mail": "1.1.0",
+          "Penguin.Cms.Mail.Repositories": "1.1.0",
+          "Penguin.Cms.Workers": "1.0.6",
+          "Penguin.Persistence.Database": "1.1.13"
+        },
+        "runtime": {
+          "Penguin.Cms.Workers.Email.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.2.0": {
+        "dependencies": {
+          "System.Memory": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.Win32.Registry/4.5.0": {
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Memory": "4.5.1",
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Penguin.Cms.Attributes/1.0.4": {
+        "dependencies": {
+          "Penguin.Persistence.Abstractions": "1.2.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Attributes.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Penguin.Cms.Configurations/1.2.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Cms.Entities": "1.0.5",
+          "Penguin.Configuration": "1.1.2",
+          "Penguin.DependencyInjection.Abstractions": "1.0.5",
+          "Penguin.Messaging.Abstractions": "2.0.6",
+          "Penguin.Messaging.Persistence": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Configurations.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        }
+      },
+      "Penguin.Cms.Entities/1.0.5": {
+        "dependencies": {
+          "Penguin.Cms.Attributes": "1.0.4",
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Persistence.Abstractions": "1.2.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Entities.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Penguin.Cms.Files/1.0.4": {
+        "dependencies": {
+          "Penguin.Cms.Security": "1.0.8",
+          "Penguin.Files.Abstractions": "1.0.4",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "Penguin.Services.Files": "1.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Files.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Penguin.Cms.Logging/1.0.5": {
+        "dependencies": {
+          "Penguin.Cms.Logging.Entities": "1.0.2",
+          "Penguin.Errors": "1.0.2",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Logging.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Penguin.Cms.Logging.Entities/1.0.2": {
+        "dependencies": {
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Messaging.Logging": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Logging.Entities.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Penguin.Cms.Mail/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Cms.Configurations": "1.2.2",
+          "Penguin.Cms.Files": "1.0.4",
+          "Penguin.Configuration.Extensions": "1.0.6",
+          "Penguin.Files.Abstractions": "1.0.4",
+          "Penguin.Mail": "1.1.2",
+          "Penguin.Mail.Abstractions": "1.0.5",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "Penguin.Web.Data": "1.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Mail.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Penguin.Cms.Mail.Repositories/1.1.0": {
+        "dependencies": {
+          "Penguin.Cms.Mail": "1.1.0",
+          "Penguin.Cms.Repositories": "1.0.3",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "Penguin.Persistence.Database": "1.1.13",
+          "Penguin.Persistence.Repositories": "1.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Mail.Repositories.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Penguin.Cms.Repositories/1.0.3": {
+        "dependencies": {
+          "Penguin.Cms.Entities": "1.0.5",
+          "Penguin.Messaging.Core": "2.0.9",
+          "Penguin.Persistence.Repositories": "1.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Repositories.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Penguin.Cms.Security/1.0.8": {
+        "dependencies": {
+          "Penguin.Cms.Attributes": "1.0.4",
+          "Penguin.Cms.Entities": "1.0.5",
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Extensions.String": "1.1.8",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "Penguin.Reflection": "3.0.11",
+          "Penguin.Reflection.Extensions": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Security.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Penguin.Cms.Workers/1.0.6": {
+        "dependencies": {
+          "Penguin.Cms.Logging": "1.0.5",
+          "Penguin.Configuration": "1.1.2",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Reflection": "3.0.11",
+          "Penguin.Workers.Abstractions": "1.2.10",
+          "Penguin.Workers.Repositories": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Workers.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Penguin.Cms.Workers.Entities/1.0.2": {
+        "dependencies": {
+          "Penguin.Entities": "1.0.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Cms.Workers.Entities.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Penguin.Configuration/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Configuration.Abstractions": "1.1.4",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Configuration.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Penguin.Configuration.Abstractions/1.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Configuration.Abstractions.dll": {
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+          }
+        }
+      },
+      "Penguin.Configuration.Extensions/1.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Configuration.Abstractions": "1.1.4",
+          "Penguin.Extensions.String": "1.1.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Configuration.Extensions.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Penguin.DependencyInjection.Abstractions/1.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Penguin.Entities/1.0.8": {
+        "dependencies": {
+          "Penguin.Entities.Abstractions": "1.0.3",
+          "Penguin.Persistence.Abstractions": "1.2.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Entities.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Penguin.Entities.Abstractions/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Entities.Abstractions.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Penguin.Errors/1.0.2": {
+        "dependencies": {
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Extensions.Exceptions": "1.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Errors.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Penguin.Extensions.Exceptions/1.1.7": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Extensions.Exceptions.dll": {
+            "assemblyVersion": "1.1.7.0",
+            "fileVersion": "1.1.7.0"
+          }
+        }
+      },
+      "Penguin.Extensions.String/1.1.8": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Extensions.String.dll": {
+            "assemblyVersion": "1.1.8.0",
+            "fileVersion": "1.1.8.0"
+          }
+        }
+      },
+      "Penguin.Files.Abstractions/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Files.Abstractions.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Penguin.Mail/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Penguin.Configuration.Extensions": "1.0.6",
+          "Penguin.DependencyInjection.Abstractions": "1.0.5",
+          "Penguin.Extensions.String": "1.1.8",
+          "Penguin.Files.Abstractions": "1.0.4",
+          "Penguin.Mail.Abstractions": "1.0.5",
+          "Penguin.Messaging.Logging": "2.0.6",
+          "Penguin.Web.Data": "1.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Mail.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Penguin.Mail.Abstractions/1.0.5": {
+        "dependencies": {
+          "Penguin.Files.Abstractions": "1.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Mail.Abstractions.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Penguin.Messaging.Abstractions/2.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Abstractions.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "Penguin.Messaging.Core/2.0.9": {
+        "dependencies": {
+          "Penguin.Messaging.Abstractions": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Core.dll": {
+            "assemblyVersion": "2.0.9.0",
+            "fileVersion": "2.0.9.0"
+          }
+        }
+      },
+      "Penguin.Messaging.Logging/2.0.6": {
+        "dependencies": {
+          "Penguin.Messaging.Abstractions": "2.0.6",
+          "Penguin.Messaging.Core": "2.0.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Logging.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "Penguin.Messaging.Persistence/2.0.6": {
+        "dependencies": {
+          "Penguin.Messaging.Abstractions": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Messaging.Persistence.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "Penguin.Persistence.Abstractions/1.2.8": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Persistence.Abstractions.dll": {
+            "assemblyVersion": "1.2.8.0",
+            "fileVersion": "1.2.8.0"
+          }
+        }
+      },
+      "Penguin.Persistence.Database/1.1.13": {
+        "dependencies": {
+          "Penguin.Extensions.String": "1.1.8",
+          "Penguin.Persistence.Abstractions": "1.2.8",
+          "Penguin.Reflection.Extensions": "2.0.6",
+          "System.Data.SqlClient": "4.6.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Persistence.Database.dll": {
+            "assemblyVersion": "1.1.13.0",
+            "fileVersion": "1.1.13.0"
+          }
+        }
+      },
+      "Penguin.Persistence.Repositories/1.1.12": {
+        "dependencies": {
+          "Penguin.Entities": "1.0.8",
+          "Penguin.Messaging.Core": "2.0.9",
+          "Penguin.Messaging.Persistence": "2.0.6",
+          "Penguin.Persistence.Abstractions": "1.2.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Persistence.Repositories.dll": {
+            "assemblyVersion": "1.1.12.0",
+            "fileVersion": "1.1.12.0"
+          }
+        }
+      },
+      "Penguin.Reflection/3.0.11": {
+        "dependencies": {
+          "Penguin.Reflection.Abstractions": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Reflection.dll": {
+            "assemblyVersion": "3.0.11.0",
+            "fileVersion": "3.0.11.0"
+          }
+        }
+      },
+      "Penguin.Reflection.Abstractions/2.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Reflection.Abstractions.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "Penguin.Reflection.Extensions/2.0.6": {
+        "dependencies": {
+          "Penguin.Reflection.Abstractions": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Reflection.Extensions.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "Penguin.Services.Files/1.0.4": {
+        "dependencies": {
+          "Penguin.DependencyInjection.Abstractions": "1.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Services.Files.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Penguin.Web.Data/1.1.7": {
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Web.Data.dll": {
+            "assemblyVersion": "1.1.7.0",
+            "fileVersion": "1.1.7.0"
+          }
+        }
+      },
+      "Penguin.Workers.Abstractions/1.2.10": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Workers.Abstractions.dll": {
+            "assemblyVersion": "1.2.10.0",
+            "fileVersion": "1.2.10.0"
+          }
+        }
+      },
+      "Penguin.Workers.Repositories/1.0.2": {
+        "dependencies": {
+          "Penguin.Cms.Workers.Entities": "1.0.2",
+          "Penguin.Persistence.Repositories": "1.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Penguin.Workers.Repositories.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "System.Buffers/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.6.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.Buffers": "4.4.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Memory": "4.5.1",
+          "System.Security.Principal.Windows": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.5.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.5.0.1",
+            "fileVersion": "4.6.27618.1"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.5.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Memory/4.5.1": {
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26606.5"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "dependencies": {
+          "System.Memory": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Penguin.Cms.Workers.Email/1.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nOP8R1mVb/6mZtm2qgAJXn/LFm/2kMjHDAg/QJLFG6CuWYJtaD3p1BwQhufBVvRzL9ceJ/xF0SQ0qsI2GkDQAA==",
+      "path": "microsoft.extensions.configuration/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
+      "path": "microsoft.extensions.configuration.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
+      "path": "microsoft.extensions.primitives/2.2.0",
+      "hashPath": "microsoft.extensions.primitives.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "path": "microsoft.win32.registry/4.5.0",
+      "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Penguin.Cms.Attributes/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1ozjmFrD00zbz2VTSo/93ITz/ZeJ+h1oALWdRc32sV4FBzRDmKdcMHBiq7tWrRZLCh1ySAW/dgfXmL3LZu/vsA==",
+      "path": "penguin.cms.attributes/1.0.4",
+      "hashPath": "penguin.cms.attributes.1.0.4.nupkg.sha512"
+    },
+    "Penguin.Cms.Configurations/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Is8j1+oyc/ZszXrMyLuWhX9Kr1js3hhb9MeKfeyYw9hnPCi+BmctPTuDp0wjB4DpDY8TVFjZQpm3xdiIVbrPA==",
+      "path": "penguin.cms.configurations/1.2.2",
+      "hashPath": "penguin.cms.configurations.1.2.2.nupkg.sha512"
+    },
+    "Penguin.Cms.Entities/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IdcJkwYOoIO/Y1OhKAbIjhTA4S4VOBJvxn2pKIN17ev7zDe3sOhCEOGZsEIwDdtF4RQhN8bI3TpV8sq02arswQ==",
+      "path": "penguin.cms.entities/1.0.5",
+      "hashPath": "penguin.cms.entities.1.0.5.nupkg.sha512"
+    },
+    "Penguin.Cms.Files/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pd3tuomPf597keWRoCkvgqooBZTxbg9mag9LYtTcDwQhO6/S0Ky+Lpvi6mj5KeReWJBjdEzQCxwiVrNsU0ahQw==",
+      "path": "penguin.cms.files/1.0.4",
+      "hashPath": "penguin.cms.files.1.0.4.nupkg.sha512"
+    },
+    "Penguin.Cms.Logging/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S/v116z5ag9p9u0eCeA0iO5rS4snPE9uKTtgDutB4s1gSUvUrOlmThdD2z4Zo7P+o+wxHE+f503pvGDdPiXe2A==",
+      "path": "penguin.cms.logging/1.0.5",
+      "hashPath": "penguin.cms.logging.1.0.5.nupkg.sha512"
+    },
+    "Penguin.Cms.Logging.Entities/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hlKZTQk+R0dlvhejFdJSqrCSeEAJHX61X4zTxkcRrmMJOv3pCR28A6x9BLdSRdiWgTUK/q0kiRpVVW81JgsLSA==",
+      "path": "penguin.cms.logging.entities/1.0.2",
+      "hashPath": "penguin.cms.logging.entities.1.0.2.nupkg.sha512"
+    },
+    "Penguin.Cms.Mail/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1TxWNJvmovSUOQY2b2+Ci1rTtL7MvBcCcA/xG/4vScf8Hih5GmEnYFLOx5Uh5dSNId0sbSk+sZcI4GMjM3Csw==",
+      "path": "penguin.cms.mail/1.1.0",
+      "hashPath": "penguin.cms.mail.1.1.0.nupkg.sha512"
+    },
+    "Penguin.Cms.Mail.Repositories/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y5adcg0yni6wVHTSPHJ+YPifn2sFt0Y7WdbdSjvacgx3f33liDtR74v2IOPmzaX9VS76VFZ8BQ08N5jQW8nXCw==",
+      "path": "penguin.cms.mail.repositories/1.1.0",
+      "hashPath": "penguin.cms.mail.repositories.1.1.0.nupkg.sha512"
+    },
+    "Penguin.Cms.Repositories/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Akxz94jih6+fZCDr44LpTh+xpaSaeWR76YWXCB2rJhL9Wy5wBr7kIF8OHp2RDg2pWG/GtJIwtvER2VXZjvCHHQ==",
+      "path": "penguin.cms.repositories/1.0.3",
+      "hashPath": "penguin.cms.repositories.1.0.3.nupkg.sha512"
+    },
+    "Penguin.Cms.Security/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I/O7b03Pj1KEgr+fZKBJKjNQ14Jw2NCbhyuhbLqFYixjOliqQ8HqhrdfSW39K85EzZCVIZZLShUfb+9aDGJnMQ==",
+      "path": "penguin.cms.security/1.0.8",
+      "hashPath": "penguin.cms.security.1.0.8.nupkg.sha512"
+    },
+    "Penguin.Cms.Workers/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u2IarpyqIgFWptc2Wiw60fSiEgS4e6Uk7QjmWM8nVEnA+RgdQqdUdxzaa89rmKSB7BTdtnHuC2hG8hfhAb/rnQ==",
+      "path": "penguin.cms.workers/1.0.6",
+      "hashPath": "penguin.cms.workers.1.0.6.nupkg.sha512"
+    },
+    "Penguin.Cms.Workers.Entities/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uTxp6wRD+EWx2Tfh234rDZzax9GUShzYqBrAUENtjAdylh9KTWx+tkk6eKX1MxrgR10Df1Fgz1uqFaCG2o8yUA==",
+      "path": "penguin.cms.workers.entities/1.0.2",
+      "hashPath": "penguin.cms.workers.entities.1.0.2.nupkg.sha512"
+    },
+    "Penguin.Configuration/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mx0GME1ydiDjMl7wAHFNpTQZ3SliOk0WjrUZBso5SM6N5YXedpMV48PoeXlCaeaHgqEExux758Mjx7ro4Ktk0A==",
+      "path": "penguin.configuration/1.1.2",
+      "hashPath": "penguin.configuration.1.1.2.nupkg.sha512"
+    },
+    "Penguin.Configuration.Abstractions/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fspw76xr1wI+2ztqrnIj5PBchn85O6PlWtiyqH6TDs3pJB8z+Jk3xXXcaNDSUFspv9ECijYHSWvP03bHhRfM2Q==",
+      "path": "penguin.configuration.abstractions/1.1.4",
+      "hashPath": "penguin.configuration.abstractions.1.1.4.nupkg.sha512"
+    },
+    "Penguin.Configuration.Extensions/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qra08OMuQCqQSvpB0j1e1exAjP1EzzxsS3XPJFBteHJkkK7QZNFc4eXnoG34gUfjF1EzQhOL8gbTodRVhZy9Qw==",
+      "path": "penguin.configuration.extensions/1.0.6",
+      "hashPath": "penguin.configuration.extensions.1.0.6.nupkg.sha512"
+    },
+    "Penguin.DependencyInjection.Abstractions/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X0uaenycmIEyoTCkdl8WKW091DvGb5odETxa9Adv3ZHfxFeqiZBSWFcpMZXx7HX6GzolZcAp4BTXRwSwXXgV6Q==",
+      "path": "penguin.dependencyinjection.abstractions/1.0.5",
+      "hashPath": "penguin.dependencyinjection.abstractions.1.0.5.nupkg.sha512"
+    },
+    "Penguin.Entities/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jcg6fkhsXhfv6L+U+OK9I2gB0cAPwbTmymzZdK5nu81jbTQQtkMSOpeTdsN09IQ0icibxUK5xqW/J5PrDGpFPA==",
+      "path": "penguin.entities/1.0.8",
+      "hashPath": "penguin.entities.1.0.8.nupkg.sha512"
+    },
+    "Penguin.Entities.Abstractions/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-26ao6F9xzWahv8Hu4VXdRhXvzC5MX2ogCPPaksMww1oqWD+oBN/wnM3kzYjqXjMDmhqyJJIAsvbMdE+hpVYOoA==",
+      "path": "penguin.entities.abstractions/1.0.3",
+      "hashPath": "penguin.entities.abstractions.1.0.3.nupkg.sha512"
+    },
+    "Penguin.Errors/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S/zxA1AgrqH/GANxQI6ZJqrSQMr/L/hR8UmrK7u/5+rOOlQi56NSxju1/MKCUZnVPD5L0CRH/5brCmp63qbT7g==",
+      "path": "penguin.errors/1.0.2",
+      "hashPath": "penguin.errors.1.0.2.nupkg.sha512"
+    },
+    "Penguin.Extensions.Exceptions/1.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-263pjVvSs4mhvnq8UU4CbVlrP1oVIUMZQ+gy/36mycezZxWZStsCy/eTBZUs6tIuQA0kfX8uX/CCh333l9YfKw==",
+      "path": "penguin.extensions.exceptions/1.1.7",
+      "hashPath": "penguin.extensions.exceptions.1.1.7.nupkg.sha512"
+    },
+    "Penguin.Extensions.String/1.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WdpnBejBYadD7fTb5mV/qdU1ndTIAVLmiH/tlnvuwhia8/wmpetMtAEdQF6u60AqGH1LfIaP6OzSyJh1a5S1Iw==",
+      "path": "penguin.extensions.string/1.1.8",
+      "hashPath": "penguin.extensions.string.1.1.8.nupkg.sha512"
+    },
+    "Penguin.Files.Abstractions/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HKTvaI9dXOxDZ8ekGvJ7vS4IpeBRbxSySwzYtkLDaSn2GxTfyevJ5RePdzk0rJ4cFjhiy2idbGefhLx28o2v+g==",
+      "path": "penguin.files.abstractions/1.0.4",
+      "hashPath": "penguin.files.abstractions.1.0.4.nupkg.sha512"
+    },
+    "Penguin.Mail/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EDwre70E3/ME4nsoe4laYrTaUComsfG22A8NZss0m/8v54U7SkgBVvJz68RhGMqrIE72b9nRapNtC3N7FGGGuw==",
+      "path": "penguin.mail/1.1.2",
+      "hashPath": "penguin.mail.1.1.2.nupkg.sha512"
+    },
+    "Penguin.Mail.Abstractions/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PF50vnZKLSHi0cyOdkiBzbd8MSvdeqAgYO4f3kDrP/yhSHrCYDeQ4vTAvICzT2t/WBXunlePzNuV2G+Uui29iA==",
+      "path": "penguin.mail.abstractions/1.0.5",
+      "hashPath": "penguin.mail.abstractions.1.0.5.nupkg.sha512"
+    },
+    "Penguin.Messaging.Abstractions/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GZasuWx8tycXxHteZqtsxmt8ZP3wANXkMMtWo/tUgIxKAy2NVh5QtknXEy7/l4sGRkcVMgWwoto8RfPqDzEcrg==",
+      "path": "penguin.messaging.abstractions/2.0.6",
+      "hashPath": "penguin.messaging.abstractions.2.0.6.nupkg.sha512"
+    },
+    "Penguin.Messaging.Core/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Co+9A88aQjYXq7GfxHgA1miEywVQDnKGsCXmL7StOXDd+vHnjioLPJDi6cAAE/t8PmKHisTyTwOnsc/6yqOMvA==",
+      "path": "penguin.messaging.core/2.0.9",
+      "hashPath": "penguin.messaging.core.2.0.9.nupkg.sha512"
+    },
+    "Penguin.Messaging.Logging/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u2jfW9Kghg/hbS3v60SQs/MSh68JtvkrwLbfj93SxFmlb1oPUeMxGK4eGExANVb89ccEWfuxVmNnnPfKXAbKsg==",
+      "path": "penguin.messaging.logging/2.0.6",
+      "hashPath": "penguin.messaging.logging.2.0.6.nupkg.sha512"
+    },
+    "Penguin.Messaging.Persistence/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQJItTwgSCt4a/8hE42tbxbli+8yzv4oyJUjfw9iwvUCeB45UI2kr8JyoYUgzVOTonWF8gCV1+m8+a9SFF5oJQ==",
+      "path": "penguin.messaging.persistence/2.0.6",
+      "hashPath": "penguin.messaging.persistence.2.0.6.nupkg.sha512"
+    },
+    "Penguin.Persistence.Abstractions/1.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1o97M53BaN95zVee+ZFGElYuC4OdCNmI2oqX2Q/IYRKYlixihekdpie0IP0Q1ZQ2YahbAG3qMGC1nbXFfcDhQ==",
+      "path": "penguin.persistence.abstractions/1.2.8",
+      "hashPath": "penguin.persistence.abstractions.1.2.8.nupkg.sha512"
+    },
+    "Penguin.Persistence.Database/1.1.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+6SKj5hASqONGfeah5QH7WunCGbCm53mKD/LODy7oGaD2BW2wn0/rGlKJmaTAcxoBaQZgyuZ24eGHlnhZqPjXQ==",
+      "path": "penguin.persistence.database/1.1.13",
+      "hashPath": "penguin.persistence.database.1.1.13.nupkg.sha512"
+    },
+    "Penguin.Persistence.Repositories/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e9QtCJ1YPJEk2tHjeXEX3X896Ve+4Sb35aUr9CNJJI9rgT4tXGGILI//LTAm4gN0NmK20JSX2XllWq8jOLENUg==",
+      "path": "penguin.persistence.repositories/1.1.12",
+      "hashPath": "penguin.persistence.repositories.1.1.12.nupkg.sha512"
+    },
+    "Penguin.Reflection/3.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xkk+kRc5mhJGbfLzazxHzAmiyzL2uvlPi1LT0waZMxFetDyh+gpgyyYG4LgthNI5nbldqSlb7YJh1XX753J5ug==",
+      "path": "penguin.reflection/3.0.11",
+      "hashPath": "penguin.reflection.3.0.11.nupkg.sha512"
+    },
+    "Penguin.Reflection.Abstractions/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QKEcI5QWDunGueI4HElgUivFjlmaXzDAnMzDn1ksMuhZV3BZ7X2saeN3PvIEGrbpV4lvWyuvafOZYcSC2+wHCw==",
+      "path": "penguin.reflection.abstractions/2.0.6",
+      "hashPath": "penguin.reflection.abstractions.2.0.6.nupkg.sha512"
+    },
+    "Penguin.Reflection.Extensions/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8EIyGo213JZYeF3Y1lDlJVEdVrIfm2F6O40xPPx63vcG865g9t7f15fGSvHFEeUcsKl1URvme3P5kMIBUA4E/A==",
+      "path": "penguin.reflection.extensions/2.0.6",
+      "hashPath": "penguin.reflection.extensions.2.0.6.nupkg.sha512"
+    },
+    "Penguin.Services.Files/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vZ2cWA7uPKhdcv4BoVkTnRCZ+J18ZE0qVr33vBWUoHvNdVOy49bJk58etwWBT3H03UeTThqP2Jau0tccVBsi1g==",
+      "path": "penguin.services.files/1.0.4",
+      "hashPath": "penguin.services.files.1.0.4.nupkg.sha512"
+    },
+    "Penguin.Web.Data/1.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lXSCmgv7FezUUZU1OF6Yp1cEEpNe78PRBVnSQo9TO+sgowj0gdG2RmSg/Jb51Qo9f83qQaMx7id0SjqzvtH+IA==",
+      "path": "penguin.web.data/1.1.7",
+      "hashPath": "penguin.web.data.1.1.7.nupkg.sha512"
+    },
+    "Penguin.Workers.Abstractions/1.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QmjJRiKSXUmyk6xg+nYvM6nDd/mlv0dLcPz8d6O/S+pd/f3zKjncTQmieyqxCtBqzfkvnk2GezgHyVynbqguWg==",
+      "path": "penguin.workers.abstractions/1.2.10",
+      "hashPath": "penguin.workers.abstractions.1.2.10.nupkg.sha512"
+    },
+    "Penguin.Workers.Repositories/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n4BB1IiSxFqxCYd7oxxOoUsELHOWOZZncKbiG7F2teHWhYTTA1SF0y49wY9kPcPXaAUoO76RY000B8Hki0ds5A==",
+      "path": "penguin.workers.repositories/1.0.2",
+      "hashPath": "penguin.workers.repositories.1.0.2.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zmr7mxqvG7M7qWzPTHQEF0jIOo65vqsnaJ2s7AyZ9JQaSJ3rfXZ7vPGszw1EbvRATu6zsFMdpQeq1g7oaNocOg==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Buffers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "path": "system.buffers/4.4.0",
+      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7MTJhBFt4/tSJ2VRpG+TQNPcDdbCnWuoYzbe0kD5O3mQ7aZ2Q+Q3D9Y5Y3/aper5Gp3Lrs+8edk9clvxyPYXPw==",
+      "path": "system.data.sqlclient/4.6.1",
+      "hashPath": "system.data.sqlclient.4.6.1.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg==",
+      "path": "system.diagnostics.diagnosticsource/4.5.0",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+      "path": "system.memory/4.5.1",
+      "hashPath": "system.memory.4.5.1.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    }
+  }
+}
