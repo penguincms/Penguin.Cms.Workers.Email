@@ -6,7 +6,6 @@ using Penguin.Mail;
 using Penguin.Messaging.Core;
 using Penguin.Messaging.Logging.Extensions;
 using Penguin.Persistence.Abstractions.Interfaces;
-using Penguin.Persistence.Database.Objects;
 using Penguin.Workers.Repositories;
 using System;
 using System.Collections.Generic;
@@ -19,16 +18,10 @@ namespace Penguin.Cms.Workers.Email
     /// </summary>
     public class EmailWorker : CmsWorker
     {
-        #region Properties
-
         /// <summary>
         /// The intended amount of time between runs
         /// </summary>
         public override TimeSpan Delay => new TimeSpan(0, 0, 5, 0, 0);
-
-        #endregion Properties
-
-        #region Constructors
 
         /// <summary>
         /// Constructs a new instance of this email worker
@@ -39,15 +32,11 @@ namespace Penguin.Cms.Workers.Email
         /// <param name="logEntryRepository">A log entry repository to log out run-time messages</param>
         /// <param name="errorRepository">An error repository to record any exceptions</param>
         /// <param name="messageBus">An optional message bus to send out messages related to the state of this worker</param>
-        public EmailWorker(EmailRepository emailRepository, MailService mail, WorkerRepository workerRepository, IRepository<LogEntry> logEntryRepository, IRepository<Error> errorRepository, MessageBus messageBus = null) : base(workerRepository, logEntryRepository, errorRepository, messageBus)
+        public EmailWorker(EmailRepository emailRepository, MailService mail, WorkerRepository workerRepository, IRepository<LogEntry> logEntryRepository, IRepository<AuditableError> errorRepository, MessageBus messageBus = null) : base(workerRepository, logEntryRepository, errorRepository, messageBus)
         {
             EmailRepository = emailRepository;
             Mail = mail;
         }
-
-        #endregion Constructors
-
-        #region Methods
 
         /// <summary>
         /// Executes the email worker, attempting to send the next 100 messages in the queue
@@ -74,12 +63,10 @@ namespace Penguin.Cms.Workers.Email
                 {
                     MessageBus?.Log(ex);
                     thisMessage.State = EmailMessage.MessageState.Failure;
-                    this.Logger.LogException(ex);
+                    throw;
                 }
             }
         }
-
-        #endregion Methods
 
         /// <summary>
         /// The email repository to use when interacting with the email queue

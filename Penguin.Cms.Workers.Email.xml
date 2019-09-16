@@ -14,7 +14,7 @@
             The intended amount of time between runs
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.#ctor(Penguin.Cms.Mail.Repositories.EmailRepository,Penguin.Mail.MailService,Penguin.Workers.Repositories.WorkerRepository,Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Logging.Entities.LogEntry},Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Errors.Error},Penguin.Messaging.Core.MessageBus)">
+        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.#ctor(Penguin.Cms.Mail.Repositories.EmailRepository,Penguin.Mail.MailService,Penguin.Workers.Repositories.WorkerRepository,Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Logging.Entities.LogEntry},Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Errors.AuditableError},Penguin.Messaging.Core.MessageBus)">
             <summary>
             Constructs a new instance of this email worker
             </summary>
