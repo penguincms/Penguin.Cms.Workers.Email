@@ -1,8 +1,9 @@
-﻿using Penguin.Cms.Logging.Entities;
-using Penguin.Cms.Mail;
-using Penguin.Cms.Mail.Repositories;
-using Penguin.Errors;
-using Penguin.Mail;
+﻿using Penguin.Cms.Email;
+using Penguin.Cms.Email.Abstractions;
+using Penguin.Cms.Email.Repositories;
+using Penguin.Cms.Errors;
+using Penguin.Cms.Logging.Entities;
+using Penguin.Email.Services;
 using Penguin.Messaging.Core;
 using Penguin.Messaging.Logging.Extensions;
 using Penguin.Persistence.Abstractions.Interfaces;
@@ -22,6 +23,16 @@ namespace Penguin.Cms.Workers.Email
         /// The intended amount of time between runs
         /// </summary>
         public override TimeSpan Delay => new TimeSpan(0, 0, 5, 0, 0);
+
+        /// <summary>
+        /// The email repository to use when interacting with the email queue
+        /// </summary>
+        protected EmailRepository EmailRepository { get; set; }
+
+        /// <summary>
+        /// The mail service to use when sending emails
+        /// </summary>
+        protected MailService Mail { get; set; }
 
         /// <summary>
         /// Constructs a new instance of this email worker
@@ -49,33 +60,23 @@ namespace Penguin.Cms.Workers.Email
             {
                 this.Logger.LogInfo("Sending message {0}", thisMessage.Guid);
 
-                this.EmailRepository.UpdateState(thisMessage._Id, EmailMessage.MessageState.Failure);
+                this.EmailRepository.UpdateState(thisMessage._Id, EmailMessageState.Failure);
 
                 try
                 {
                     this.Mail.Send(thisMessage);
 
-                    thisMessage.State = EmailMessage.MessageState.Success;
+                    thisMessage.State = EmailMessageState.Success;
 
-                    this.EmailRepository.UpdateState(thisMessage._Id, EmailMessage.MessageState.Success);
+                    this.EmailRepository.UpdateState(thisMessage._Id, EmailMessageState.Success);
                 }
                 catch (Exception ex)
                 {
                     MessageBus?.Log(ex);
-                    thisMessage.State = EmailMessage.MessageState.Failure;
+                    thisMessage.State = EmailMessageState.Failure;
                     throw;
                 }
             }
         }
-
-        /// <summary>
-        /// The email repository to use when interacting with the email queue
-        /// </summary>
-        protected EmailRepository EmailRepository { get; set; }
-
-        /// <summary>
-        /// The mail service to use when sending emails
-        /// </summary>
-        protected MailService Mail { get; set; }
     }
 }

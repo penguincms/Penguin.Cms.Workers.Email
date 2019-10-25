@@ -2,14 +2,14 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Workers.Email</PackageProjectUrl>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Description>An email worker class that scrapes PersistenceContexts to find queued messages and attempts to send them out through the Penguin Mail stack service while logging actions</Description>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Mail" Version="2.0.0" />
-    <PackageReference Include="Penguin.Cms.Mail.Repositories" Version="2.0.0" />
-    <PackageReference Include="Penguin.Cms.Workers" Version="2.0.0" />
-    <PackageReference Include="Penguin.Persistence.Database" Version="2.0.0" />
+    <PackageReference Include="Penguin.Cms.Email" Version="1.0.0" />
+    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.0" />
+    <PackageReference Include="Penguin.Cms.Workers" Version="2.0.1" />
+    <PackageReference Include="Penguin.Persistence.Database" Version="2.0.8" />
   </ItemGroup>
 </Project>
