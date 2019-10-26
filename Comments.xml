@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Cms.Workers.Email.Local</name>
+        <name>Penguin.Cms.Workers.Email</name>
     </assembly>
     <members>
         <member name="T:Penguin.Cms.Workers.Email.EmailWorker">
