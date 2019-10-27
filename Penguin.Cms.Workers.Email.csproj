@@ -7,9 +7,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Email" Version="1.0.0" />
-    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.0" />
-    <PackageReference Include="Penguin.Persistence.Database" Version="2.0.8" />
-    <PackageReference Include="Penguin.Cms.Workers" Version="2.0.1-63707630128" />
+    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.0-T9LXGUJ" />
+    <PackageReference Include="Penguin.Cms.Workers" Version="2.0.1-T9LXGUJ" />
   </ItemGroup>
 </Project>
