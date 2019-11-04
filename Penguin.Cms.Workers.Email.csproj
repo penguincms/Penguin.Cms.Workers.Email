@@ -10,6 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Cms.Workers" Version="2.0.2-T9M4A3K" />
-    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.1-T9M63DZ" />
+    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.1-T9MC5O3" />
   </ItemGroup>
 </Project>
