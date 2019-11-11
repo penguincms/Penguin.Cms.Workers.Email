@@ -52,7 +52,7 @@ namespace Penguin.Cms.Workers.Email
         /// <summary>
         /// Executes the email worker, attempting to send the next 100 messages in the queue
         /// </summary>
-        public override void RunWorker()
+        public override void RunWorker(params string[] args)
         {
             List<EmailMessage> unsentMessages = this.EmailRepository.GetScheduledEmails(100).ToList();
 
