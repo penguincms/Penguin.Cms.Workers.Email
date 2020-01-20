@@ -9,7 +9,7 @@
     <RootNamespace>Penguin.Cms.Workers.Email</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Workers" Version="2.0.2-T9MPE3A" />
-    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.1-T9PMIQP" />
+    <PackageReference Include="Penguin.Cms.Workers" Version="2.0.2-T9QC72V" />
+    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="1.0.1-T9QC72V" />
   </ItemGroup>
 </Project>
