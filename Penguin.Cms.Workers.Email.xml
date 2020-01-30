@@ -14,7 +14,17 @@
             The intended amount of time between runs
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.#ctor(Penguin.Cms.Mail.Repositories.EmailRepository,Penguin.Mail.MailService,Penguin.Workers.Repositories.WorkerRepository,Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Logging.Entities.LogEntry},Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Errors.AuditableError},Penguin.Messaging.Core.MessageBus)">
+        <member name="P:Penguin.Cms.Workers.Email.EmailWorker.EmailRepository">
+            <summary>
+            The email repository to use when interacting with the email queue
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Workers.Email.EmailWorker.Mail">
+            <summary>
+            The mail service to use when sending emails
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.#ctor(Penguin.Cms.Email.Repositories.EmailRepository,Penguin.Email.Services.MailService,Penguin.Workers.Repositories.WorkerRepository,Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Logging.Entities.LogEntry},Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Errors.AuditableError},Penguin.Messaging.Core.MessageBus)">
             <summary>
             Constructs a new instance of this email worker
             </summary>
@@ -25,19 +35,9 @@
             <param name="errorRepository">An error repository to record any exceptions</param>
             <param name="messageBus">An optional message bus to send out messages related to the state of this worker</param>
         </member>
-        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.RunWorker">
+        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.RunWorker(System.String[])">
             <summary>
             Executes the email worker, attempting to send the next 100 messages in the queue
-            </summary>
-        </member>
-        <member name="P:Penguin.Cms.Workers.Email.EmailWorker.EmailRepository">
-            <summary>
-            The email repository to use when interacting with the email queue
-            </summary>
-        </member>
-        <member name="P:Penguin.Cms.Workers.Email.EmailWorker.Mail">
-            <summary>
-            The mail service to use when sending emails
             </summary>
         </member>
     </members>
