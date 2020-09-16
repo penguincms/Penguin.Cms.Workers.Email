@@ -10,7 +10,7 @@
     <DocumentationFile>Penguin.Cms.Workers.Email.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Workers" Version="5.0.1-TA29X8Y" />
-    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="5.0.1-TA29X8Y" />
+    <PackageReference Include="Penguin.Cms.Workers" Version="5.0.1-TA2MS78" />
+    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="5.0.1-TA2MS78" />
   </ItemGroup>
 </Project>
