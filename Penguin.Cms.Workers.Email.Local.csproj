@@ -4,7 +4,7 @@
     <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms.Workers.Email</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>An email worker class that scrapes PersistenceContexts to find queued messages and attempts to send them out through the Penguin Mail stack service while logging actions</Description>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
     <AssemblyName>Penguin.Cms.Workers.Email</AssemblyName>
     <RootNamespace>Penguin.Cms.Workers.Email</RootNamespace>
     <DocumentationFile>Penguin.Cms.Workers.Email.xml</DocumentationFile>
