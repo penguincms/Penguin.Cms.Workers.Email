@@ -2,7 +2,7 @@
 using Penguin.Cms.Email.Abstractions;
 using Penguin.Cms.Email.Repositories;
 using Penguin.Cms.Errors;
-using Penguin.Cms.Logging.Entities;
+using Penguin.Cms.Logging;
 using Penguin.Email.Services;
 using Penguin.Messaging.Core;
 using Penguin.Messaging.Logging.Extensions;
@@ -22,7 +22,7 @@ namespace Penguin.Cms.Workers.Email
         /// <summary>
         /// The intended amount of time between runs
         /// </summary>
-        public override TimeSpan Delay => new TimeSpan(0, 0, 5, 0, 0);
+        public override TimeSpan Delay => new(0, 0, 5, 0, 0);
 
         /// <summary>
         /// The email repository to use when interacting with the email queue
@@ -54,21 +54,21 @@ namespace Penguin.Cms.Workers.Email
         /// </summary>
         public override void RunWorker(params string[] args)
         {
-            List<EmailMessage> unsentMessages = this.EmailRepository.GetScheduledEmails(100).ToList();
+            List<EmailMessage> unsentMessages = EmailRepository.GetScheduledEmails(100).ToList();
 
             foreach (EmailMessage thisMessage in unsentMessages)
             {
-                this.Logger.LogInfo("Sending message {0}", thisMessage.Guid);
+                Logger.LogInfo("Sending message {0}", thisMessage.Guid);
 
-                this.EmailRepository.UpdateState(thisMessage._Id, EmailMessageState.Failure);
+                EmailRepository.UpdateState(thisMessage._Id, EmailMessageState.Failure);
 
                 try
                 {
-                    this.Mail.Send(thisMessage);
+                    Mail.Send(thisMessage);
 
                     thisMessage.State = EmailMessageState.Success;
 
-                    this.EmailRepository.UpdateState(thisMessage._Id, EmailMessageState.Success);
+                    EmailRepository.UpdateState(thisMessage._Id, EmailMessageState.Success);
                 }
                 catch (Exception ex)
                 {

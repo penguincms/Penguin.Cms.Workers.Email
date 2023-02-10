@@ -24,7 +24,7 @@
             The mail service to use when sending emails
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.#ctor(Penguin.Cms.Email.Repositories.EmailRepository,Penguin.Email.Services.MailService,Penguin.Workers.Repositories.WorkerRepository,Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Logging.Entities.LogEntry},Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Errors.AuditableError},Penguin.Messaging.Core.MessageBus)">
+        <member name="M:Penguin.Cms.Workers.Email.EmailWorker.#ctor(Penguin.Cms.Email.Repositories.EmailRepository,Penguin.Email.Services.MailService,Penguin.Workers.Repositories.WorkerRepository,Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Logging.LogEntry},Penguin.Persistence.Abstractions.Interfaces.IRepository{Penguin.Cms.Errors.AuditableError},Penguin.Messaging.Core.MessageBus)">
             <summary>
             Constructs a new instance of this email worker
             </summary>
