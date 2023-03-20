@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
-    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Cms.Workers.Email</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms.Workers.Email</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>An email worker class that scrapes PersistenceContexts to find queued messages and attempts to send them out through the Penguin Mail stack service while logging actions</Description>
     <TargetFrameworks>netstandard2.1;net7.0</TargetFrameworks>
