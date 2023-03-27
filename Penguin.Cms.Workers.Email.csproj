@@ -11,7 +11,7 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Workers" Version="5.2.0" />
-    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="5.2.0" />
+    <PackageReference Include="Penguin.Cms.Workers" Version="5.4.0" />
+    <PackageReference Include="Penguin.Cms.Email.Repositories" Version="5.4.0" />
   </ItemGroup>
 </Project>
